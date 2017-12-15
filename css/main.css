@@ -8,10 +8,7 @@
 
 
 
-body
-{
-  background-color:#eee;
-  font-family: sans-serif;
-  color:#333;
-  text-align:justify;
+.navbar {
+  padding:1%;
+
 }

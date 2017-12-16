@@ -4,11 +4,19 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background: #fff;
 }
 
-
-
-.navbar {
-  padding:1%;
-
+.navbar-flex {
+  padding-bottom:2%;
+  
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  
 }
+
+.navbar-brand img{
+  height:100%;
+}
+

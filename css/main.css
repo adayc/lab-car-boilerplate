@@ -137,3 +137,25 @@ margin-top:10vh;
 .list-unstyled li{
   margin-bottom: 1em;
 }
+
+/*Modal Login*/
+.modal-content {
+  background-color: #0f9e97;
+}
+
+.mod-log-in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fr-log-in {
+  background-color: #fff;
+  padding-top:2vh;
+}
+
+button.close {
+  align-self: flex-end;
+}
+
+

@@ -12,7 +12,7 @@
   <!-- Hojas de estilo personalizadas este proyecto  -->
   <link href="css/main.css" rel="stylesheet"> 
 </head>
-<body>
+<body onload="initialize()" onunload="GUnload()">
   <header class="container-fluid">
     <div class="row">
       <nav class="navbar navbar-default navbar-fixed-top">
@@ -94,13 +94,13 @@
             <div class="col-xs-12 text-white bg-color form">
               <h3>Tarifas</h3> 
               <h4>Consulta las tarifas LabCar aquí</h4>
-              <form class="form-horizontal">
+              <form class="form-horizontal" action="#" onsubmit="setDirections(this.from.value, this.to.value); return false" name="form">
                   <div class="form-group">
                     <label for="ptopartida" class="col-xs-1 control-label">
                       <img src="assets/images/shape.png" alt="Shape punto de partida" >
                     </label>
                     <div class="col-xs-10">
-                      <input type="text" class="form-control bg-color text-white" id="ptopartida" placeholder="Ingrese punto de partida">
+                      <input type="text" class="form-control bg-color text-white" id="fromAddress" name="from" placeholder="Ingrese punto de partida">
                     </div>
                   </div>
                   <div class="form-group">
@@ -108,24 +108,24 @@
                       <img src="assets/images/shape2.png" alt="Shape punto de destino" >
                     </label>
                     <div class="col-xs-10">
-                      <input type="text" class="form-control bg-color text-white" id="destino" placeholder="Ingrese su destino">
+                      <input type="text" class="form-control bg-color text-white" id="toAddress" name="to" placeholder="Ingrese su destino">
                     </div>
                   </div>
                   <div class="form-group">
                     <div class="col-xs-offset-4">
-                      <button type="button" class="btn btn-default  col-xs-4">Trazar ruta</button>
+                      <input type="submit" class="btn btn-default  col-xs-4" value="Trazar ruta"></input>
                     </div>
                   </div>                           
               </form>
+              <div class="maps col-xs-offset-1 col-xs-10" id="maps"></div>
+              <div class="hidden-xs hidden-sm hidden-md hidden-lg" id="direcciones"></div> 
             </div>
-            <div class="maps">
-              
-            </div>
-        </div>
+          </div>
       </div>
     </div>
   </section>
-
+  <!-- Js de Google Maps-->
+  <script src='http://maps.google.com/maps?file=api&amp;v=2&oe=ISO-8859-1;&amp;key=AIzaSyDR__GYvyqKr5hcXth_VnOEDFkAgTvHroA' type='text/javascript'></script> 
   <!-- Js de Jquery-->
   <script type="text/javascript" src="vendors/js/jquery-3.2.1.min.js"></script>
   <!-- Js de bootstrap-->

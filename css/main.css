@@ -54,13 +54,12 @@
   flex-direction:column;
   justify-content: space-around;
   align-items:flex-start;
-  
 }
 
 .floating img{
 display: inline-block;
 height:4vh;
-width:12vw;
+width:13vw;
 transform:translateY(-25%)
 }
 
@@ -84,5 +83,23 @@ margin:5vh 0;
   margin-bottom:5vh;
 }
 
+.driver{ 
+  align-items: center;
+  background-attachment:fixed;
+  background-image: url('../assets/images/conduce.jpg');/*modificar para desktop*/
+  background-size:cover;
+  background-repeat:no-repeat;
+  display: flex;
+  justify-content:flex-start;
+  height:75vh;
+  width:100%;
+}
 
+.floating-transparent{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items:flex-start;
+  
+}
 

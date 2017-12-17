@@ -127,3 +127,13 @@ input[type=text]:focus {
 height:50vh;
 margin-top:10vh;
 }
+
+/*Estilos del footer*/
+.bg-footer {
+  padding-bottom:2vh;
+  padding-top:2vh;
+  background-color: rgb(24, 23, 23);
+}
+.list-unstyled li{
+  margin-bottom: 1em;
+}

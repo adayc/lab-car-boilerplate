@@ -104,6 +104,9 @@ margin:5vh 0;
 }
 
 /*Modificando los estilos de los inputs*/
+.form{
+  padding:5vh 5vw;
+}
 input{
   border: 1px solid #fff;
   font-size:5em;
@@ -122,5 +125,5 @@ input[type=text]:focus {
 /* Estilos del mapa*/
 .maps{
 height:50vh;
-
+margin-top:10vh;
 }

@@ -138,6 +138,12 @@ margin-top:10vh;
   margin-bottom: 1em;
 }
 
+.logo-footer{
+  width:30vw;
+  height:10vh;
+  display:block;
+  margin-top:5vh;
+}
 /*Modal Login*/
 .bg-modal {
   background-color: #0f9e97;
@@ -166,9 +172,10 @@ button.close {
 
 .btn-driver{
   background-color: #42b2df;
-  width:92.5vw;
+  width:100%;
 }
 
 .text-black{
   color:#000;
+  font-weight:bold;
 }

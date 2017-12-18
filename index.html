@@ -17,7 +17,7 @@
     <div class="row">
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid ">
-            <!-- Logo y menú desplegable para menú hambuerguesa-->
+            <!-- Logo y menú desplegable para menú hamburguesa-->
           <div class="navbar-header navbar-flex">
             <button type="button" class="navbar-toggle collapsed pull-left bg-white " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
@@ -130,7 +130,7 @@
   <!-- Modal de conviértete en conductor -->
   <div class="modal fade" id="new-driver" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
-          <div class="modal-content mod-driver">            
+          <div class="modal-content bg-driver">            
               <div class="modal-body">
                   <form role="form" class="fr-driver-in">
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -138,45 +138,57 @@
                       </button>
                       <div class=""> 
                           <div class="form-group">
-                              <label for="exampleInputAmount">¿Tienes vehículo de cuatro puertas?</label>
+                              <label for="quantity-doors">¿Tienes vehículo de cuatro puertas?</label>
                               <select class="form-control">
                                       <option>Sí</option>
                                       <option>No</option>
                               </select>                               
                           </div>
                           <div class="form-group">
-                              <label for="inputHelpBlock">Marca</label>
+                              <label for="brand">Marca</label>
                               <select class="form-control">
                                   <option>Elige la marca del vehículo</option>
-                                  <option>Chevrolet</option>
-                                  <option>Ford</option>
-                                  <option>Isuzu</option>
+                                  <option>Toyota</option>
+                                  <option>Hyundai</option>
                                   <option>Kia</option>
-                                  <option>BMW</option>
+                                  <option>Nissan</option>
+                                  <option>Chevrolet</option>
+                                  <option>Suzuki</option>
+                                  <option>Mazda</option>
+                                  <option>Renault</option>
+                                  <option>Volkswagen</option>
+                                  <option>Mitsubishi</option>
                               </select>
                               <span id="helpBlock" class="help-block">¿No ves tu vehículo en lista? Envía un correo electrónico a <a href="#">asociosmdv@uber.com</a></span>           
                           </div>
                           <div class="form-group">
-                              <label for="exampleInputAmount">Modelo</label>
+                              <label for="kind">Modelo</label>
                               <select class="form-control">
-                                  <option>Modelo-1</option>
-                                  <option>Modelo-2</option>
+                                  <option>4 x 4</option>
+                                  <option>Berlina</option>
+                                  <option>Coupé</option>
+                                  <option>Ecológico</option>
+                                  <option>Eléctrico</option>
+                                  <option>Familiar</option>
+                                  <option>Monovolumen</option>
+                                  <option>Utilitario</option>
                               </select>                               
                           </div>
                           <div class="form-group">
-                              <label for="exampleInputAmount">Año</label>
+                              <label for="year">Año</label>
                               <select class="form-control">
                                   <option>2017</option>
                                   <option>2016</option>
                                   <option>2015</option>
+                                  <option>2014</option>
                               </select>                               
                           </div>
                           <div class="form-group">
-                              <label for="inputHelpBlock">Número de la matrícula</label>
+                              <label for="number">Número de la matrícula</label>
                               <input type="text" class="form-control" placeholder="Número de la matrícula">
-                              <span id="helpBlock" class="help-block">El número de la matrícula ayuda a los clientes a identificar tu vehículo</span> 
+                              <span id="helpBlock" class="help-block text-black">El número de la matrícula ayuda a los clientes a identificar tu vehículo</span> 
                           </div>
-                          <button class="btn btn-default btn-driver" type="submit">Enviar</button>
+                          <button class="btn btn-default btn-driver text-white " type="submit">ENVIAR</button>
                       </div>                           
                   </form>
               </div>         

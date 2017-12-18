@@ -7,18 +7,18 @@ El siguiente proyecto es la maquetación de la página web de LabCar empleando e
 La propuesta está estructurada con un diseño de grillas de 12 columnas en CSS para que se encuentre bajo los lineamientos del responsive design y sea adapatable a cada dispositivo en que se realice.
 ## Vistas desktop
 Estas son las vistas para dispositivos con resoluciones mayores o iguales a 768px.
-![Imagenes](assets/imgs/d1.JPG)
-![Imagenes](assets/imgs/d2.JPG)
-![Imagenes](assets/imgs/d3.JPG)
-![Imagenes](assets/imgs/d4.JPG)
-![Imagenes](assets/imgs/d5.JPG)
-![Imagenes](assets/imgs/d6.JPG)
-![Imagenes](assets/imgs/d7.JPG)
+![Imagenes](assets/images/d1.JPG)
+![Imagenes](assets/images/d2.JPG)
+![Imagenes](assets/images/d3.JPG)
+![Imagenes](assets/images/d4.JPG)
+![Imagenes](assets/images/d5.JPG)
+![Imagenes](assets/images/d6.JPG)
+![Imagenes](assets/images/d7.JPG)
 
 ## Vistas mobile
 Estas son las vistas para dispositivos con resoluciones menores a 768px.
-![Imagenes](assets/imgs/m1.JPG)
-![Imagenes](assets/imgs/m2.JPG)
+![Imagenes](assets/images/m1.JPG)
+![Imagenes](assets/images/m2.JPG)
 
 ## Partes del website
 ##1 Un header con un navbar que se convierte en un menú desplegable en dispositivos móviles.

@@ -110,6 +110,17 @@ transform:translateY(-25%)
   .place:-ms-input-placeholder { color: black !important; }  /* Internet Explorer 10-11 */
   .place::-ms-input-placeholder { color: black !important; }  /* Microsoft Edge */
   
+  .driver{ 
+    align-items: flex-end;
+    display: flex;
+    flex-direction:column;  
+  }
+
+  .floating-transparent{
+    padding:7vh 3vh 4vh;
+    background-color: rgba(0, 12, 0, 0.5);
+    
+  }
 }
 
 .new-app {

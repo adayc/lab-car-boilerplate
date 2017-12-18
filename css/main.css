@@ -103,6 +103,13 @@ transform:translateY(-25%)
     display: inline-block;
     font-weight:bold;
   }
+
+  .place::-webkit-input-placeholder { color: black !important; }  /* WebKit, Blink, Edge */ 
+  .place:-moz-placeholder { color: black !important; }  /* Mozilla Firefox 4 to 18 */
+  .place::-moz-placeholder { color: black !important; }  /* Mozilla Firefox 19+ */
+  .place:-ms-input-placeholder { color: black !important; }  /* Internet Explorer 10-11 */
+  .place::-ms-input-placeholder { color: black !important; }  /* Microsoft Edge */
+  
 }
 
 .new-app {
@@ -215,4 +222,10 @@ button.close {
 .text-black{
   color:#000;
   font-weight:bold;
+}
+
+/*Modal registrate*/
+.btn-black{
+  background-color: #000;
+  width:63%;
 }

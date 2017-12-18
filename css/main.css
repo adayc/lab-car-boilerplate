@@ -136,68 +136,7 @@ margin-top:10vh;
 }
 
 
-@media screen and (min-width: 768px) {
-  
-  .navbar-brand img{
-    margin-left:10vw;
-  }
-  .navbar-right{
-    margin-right:10vw;
-  }
-  .start h3{
-    margin-bottom:0;
-    margin-top:0;
-    }
-  
-  .floating{
-    height:45vh;
-    padding-top:4vh;
-    padding-bottom:4vh;
-    
-  }
-  
-  .floating img{
-    
-    height:3vh;
-    width:9vw;
-  }
-  .floating h4{
-    display: inline-block;
-    font-weight:bold;
-  }
 
-  .place::-webkit-input-placeholder { color: black !important; }  /* WebKit, Blink, Edge */ 
-  .place:-moz-placeholder { color: black !important; }  /* Mozilla Firefox 4 to 18 */
-  .place::-moz-placeholder { color: black !important; }  /* Mozilla Firefox 19+ */
-  .place:-ms-input-placeholder { color: black !important; }  /* Internet Explorer 10-11 */
-  .place::-ms-input-placeholder { color: black !important; }  /* Microsoft Edge */
-  
-  .driver{ 
-    align-items: flex-end;
-    display: flex;
-    flex-direction:column;  
-  }
-
-  .floating-transparent{
-    padding:7vh 3vh 4vh;
-    background-color: rgba(0, 12, 0, 0.5);
-    
-  }
-
-  .form{ 
-    display: flex;
-    flex-direction:column;
-    justify-content:flex-end;
-    align-items:flex-start;
-  }
-
-  .maps{
-    width:25vw;
-    height:50vh;
-    align-self:flex-end;
-    margin-top:-40vh;
-    }
-}
 /*Estilos del footer*/
 .bg-footer {
   padding-bottom:2vh;
@@ -254,4 +193,91 @@ button.close {
 .btn-black{
   background-color: #000;
   width:63%;
+}
+
+@media screen and (min-width: 768px) {
+  
+  .navbar-brand img{
+    margin-left:10vw;
+  }
+  .navbar-right{
+    margin-right:10vw;
+  }
+  .start h3{
+    margin-bottom:0;
+    margin-top:0;
+    }
+  
+  .floating{
+    height:45vh;
+    padding-top:4vh;
+    padding-bottom:4vh;
+    
+  }
+  
+  .floating img{
+    
+    height:3vh;
+    width:9vw;
+  }
+  .floating h4{
+    display: inline-block;
+    font-weight:bold;
+  }
+
+  .place::-webkit-input-placeholder { color: black !important; }  /* WebKit, Blink, Edge */ 
+  .place:-moz-placeholder { color: black !important; }  /* Mozilla Firefox 4 to 18 */
+  .place::-moz-placeholder { color: black !important; }  /* Mozilla Firefox 19+ */
+  .place:-ms-input-placeholder { color: black !important; }  /* Internet Explorer 10-11 */
+  .place::-ms-input-placeholder { color: black !important; }  /* Microsoft Edge */
+  
+  .driver{ 
+    align-items: flex-end;
+    display: flex;
+    flex-direction:column;  
+  }
+
+  .floating-transparent{
+    padding:7vh 3vh 4vh;
+    background-color: rgba(0, 12, 0, 0.5);
+    
+  }
+
+  .form{ 
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:flex-start;
+   
+  }
+
+  .maps{
+    width:25vw;
+    height:50vh;
+    align-self:flex-end;
+    margin-top:-40vh;
+    
+    }
+
+    .logo-footer{
+      width:15vw;
+      
+      display: block;
+      margin-left:15vw;
+      
+      
+    }
+
+  .group-logos{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    margin-left:35vw;
+    margin-top:-35vh;
+    
+   
+  }
+
+  
+  
 }

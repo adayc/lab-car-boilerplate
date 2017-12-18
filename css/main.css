@@ -11,6 +11,8 @@
 /*.row{
   margin:0;
 }*/
+
+
 .bg-white{
   background: #fff;
 }
@@ -36,6 +38,7 @@
 }
 
 
+
 .start{ 
   align-items: center;
   background-attachment:fixed;
@@ -49,12 +52,15 @@
 }
 
 .floating{
-  height:33.33%;
+  height:33.33vh;
   display:flex;
   flex-direction:column;
   justify-content: space-around;
   align-items:flex-start;
 }
+
+
+
 
 .floating img{
 display: inline-block;
@@ -66,6 +72,31 @@ transform:translateY(-25%)
 .floating h3{
   display: inline-block;
   font-weight:bold;
+}
+
+@media screen and (min-width: 768px) {
+  
+  .start h3{
+    margin-bottom:0;
+    margin-top:0;
+    }
+  
+  .floating{
+    height:45vh;
+    padding-top:4vh;
+    padding-bottom:4vh;
+    
+  }
+  
+  .floating img{
+    
+    height:3vh;
+    width:9vw;
+  }
+  .floating h4{
+    display: inline-block;
+    font-weight:bold;
+  }
 }
 
 .new-app {
